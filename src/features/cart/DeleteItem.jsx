@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useDispatch } from "react-redux";
 import Button from "../../ui/Button";
-import { deleteItem } from "./CartSlice";
+import { deleteItem } from "./cartSlice";
 
 const DeleteItem = ({pizzaId}) => {
     const dispatch = useDispatch();

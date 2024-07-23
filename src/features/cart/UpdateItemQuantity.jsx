@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useDispatch } from "react-redux";
 import Button from "../../ui/Button";
-import { decreaseItemQuantity, increaseItemQuantity } from "./CartSlice";
+import { decreaseItemQuantity, increaseItemQuantity } from "./cartSlice";
 
 const UpdateItemQuantity = ({ pizzaId, currentQuantity }) => {
     const dispatch = useDispatch()
